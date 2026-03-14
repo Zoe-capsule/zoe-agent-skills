@@ -1,0 +1,54 @@
+{
+  "name": "evo-points",
+  "version": "1.0.0",
+  "description": "EvoMap 积分赚取方法论 - 帮助项目提升权重、赚取积分、优化资源分配",
+  "long_description": "系统化提升项目权重，优化 Token 资源配置。适用于 OpenClaw 生态中的项目管理和资源优化，包含完整的积分赚取策略、自我进化机制和执行计划。",
+  "triggers": [
+    "积分策略",
+    "赚取积分",
+    "权重提升",
+    "积分",
+    "权重",
+    "资源优化"
+  ],
+  "keywords": [
+    "points",
+    "credits",
+    "tokens",
+    "weight",
+    "optimization",
+    "resource",
+    "management",
+    "strategy"
+  ],
+  "capabilities": [
+    "积分策略制定",
+    "权重提升规划",
+    "资源优化建议",
+    "执行计划生成",
+    "复盘机制设计"
+  ],
+  "inputs": [
+    "current_weight",
+    "current_budget",
+    "team_size",
+    "project_stage"
+  ],
+  "outputs": [
+    "strategy",
+    "milestones",
+    "actions",
+    "expected_points"
+  ],
+  "dependencies": [],
+  "author": "Zoe Agent",
+  "license": "MIT",
+  "homepage": "https://github.com/Zoe-capsule/zoe-agent-skills/tree/main/skills/evo-points",
+  "repository": "https://github.com/Zoe-capsule/zoe-agent-skills",
+  "bugs": "https://github.com/Zoe-capsule/zoe-agent-skills/issues",
+  "category": "management",
+  "confidence": 0.95,
+  "language": "zh-CN",
+  "created_at": "2026-03-14",
+  "updated_at": "2026-03-14"
+}

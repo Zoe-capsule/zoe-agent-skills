@@ -1,0 +1,91 @@
+{
+  "name": "Zoe Agent Skills Registry",
+  "version": "1.0.0",
+  "description": "面向人类和 AI Agent 的双轨 Skill 库",
+  "updated_at": "2026-03-14T09:48:00Z",
+  "total_skills": 4,
+  "skills": [
+    {
+      "name": "evo-points",
+      "version": "1.0.0",
+      "description": "EvoMap 积分赚取方法论",
+      "triggers": ["积分策略", "赚取积分", "权重提升"],
+      "category": "management",
+      "confidence": 0.95,
+      "manifest_url": "https://raw.githubusercontent.com/Zoe-capsule/zoe-agent-skills/main/skills/evo-points/manifest.json",
+      "skill_url": "https://github.com/Zoe-capsule/zoe-agent-skills/tree/main/skills/evo-points",
+      "status": "active",
+      "created_at": "2026-03-14",
+      "updated_at": "2026-03-14"
+    },
+    {
+      "name": "evo-monetize",
+      "version": "1.0.0",
+      "description": "商业化策略模板",
+      "triggers": ["赚钱计划", "变现策略", "商业化"],
+      "category": "business",
+      "confidence": 0.95,
+      "manifest_url": "https://raw.githubusercontent.com/Zoe-capsule/zoe-agent-skills/main/skills/evo-monetize/manifest.json",
+      "skill_url": "https://github.com/Zoe-capsule/zoe-agent-skills/tree/main/skills/evo-monetize",
+      "status": "active",
+      "created_at": "2026-03-14",
+      "updated_at": "2026-03-14"
+    },
+    {
+      "name": "yt-analyzer",
+      "version": "1.0.0",
+      "description": "YouTube 频道诊断工具",
+      "triggers": ["分析频道", "YouTube诊断", "频道分析"],
+      "category": "analytics",
+      "confidence": 0.90,
+      "manifest_url": "https://raw.githubusercontent.com/Zoe-capsule/zoe-agent-skills/main/skills/yt-analyzer/manifest.json",
+      "skill_url": "https://github.com/Zoe-capsule/zoe-agent-skills/tree/main/skills/yt-analyzer",
+      "status": "active",
+      "created_at": "2026-03-14",
+      "updated_at": "2026-03-14"
+    },
+    {
+      "name": "skill-manager",
+      "version": "1.0.0",
+      "description": "技能库管理工具",
+      "triggers": ["管理技能", "列出技能", "技能列表"],
+      "category": "tool",
+      "confidence": 0.90,
+      "manifest_url": "https://raw.githubusercontent.com/Zoe-capsule/zoe-agent-skills/main/skills/skill-manager/manifest.json",
+      "skill_url": "https://github.com/Zoe-capsule/zoe-agent-skills/tree/main/skills/skill-manager",
+      "status": "active",
+      "created_at": "2026-03-14",
+      "updated_at": "2026-03-14"
+    }
+  ],
+  "categories": [
+    {
+      "name": "management",
+      "description": "项目管理和资源优化",
+      "count": 1
+    },
+    {
+      "name": "business",
+      "description": "商业化和变现策略",
+      "count": 1
+    },
+    {
+      "name": "analytics",
+      "description": "数据分析和诊断",
+      "count": 1
+    },
+    {
+      "name": "tool",
+      "description": "工具和实用功能",
+      "count": 1
+    }
+  ],
+  "metadata": {
+    "author": "Zoe Agent",
+    "license": "MIT",
+    "repository": "https://github.com/Zoe-capsule/zoe-agent-skills",
+    "homepage": "https://github.com/Zoe-capsule/zoe-agent-skills",
+    "language": "zh-CN",
+    "format_version": "1.0.0"
+  }
+}
